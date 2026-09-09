@@ -1,0 +1,5 @@
+BXH ARENA v13.24.1
+1. 將 index.html 覆蓋 GitHub Pages 目前版本。
+2. 若 Firebase Console 尚未發布 v13.23.0 Firestore Rules，請同步發布 firestore_v13.23.0.rules。
+3. 玩家登入後測試：開啟戰場 → 建立一般賽事。
+4. 若仍失敗，新版會直接顯示 Firebase 錯誤類型；permission-denied 代表 Rules/帳號權限問題。
